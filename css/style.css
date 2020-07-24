@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.logo img{
+    height: 200px;
+    margin-left: 30px;
+}
+
+.botao-menu{
+    border: none;
+    background-color: transparent;
+}
+
+.topo{
+    width: 70%;
+    text-align: center;
+    font-size: 30pt;
+}
+
+.topo p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: myriad pro;
+    font-size: 50px;
+    color: #662483;
+}
+
+.topo1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topo2-roxo{
+    width: 695px;
+    height: 250px;
+}
+
+.topo2-verde{
+    width: 695px;
+    height: 250px;
+}
+
+.topo2-laranja{
+    width: 695px;
+    height: 250px;
+}
+
+.menu{
+    list-style: none;
+    text-align: right;
+    display: none;
+}
+
+button a{
+    background-color: white;
+    border: none;
+}
+
+.menu a{
+    text-decoration: none;
+    font-family: myriad pro;
+    font-size: 16pt;
+}
+
+button a:hover, .menu{
+    flex-direction: column;
+    width: 100px;
+    display: list-item;
+    display: block;
+}
+
+.menu-roxo{
+    color: #662483;
+}
+
+.menu-verde{
+    color: #00a19a;
+}
+
+.menu-laranja{
+    color: #ee9902;
+}
+
+.borda-roxa{
+    margin-bottom: 20px;
+    border-bottom: 3px solid rgb(102,36,131);
+    width: 110px;
+}
+
+.borda-verde{
+    margin-bottom: 20px;
+    border-bottom: 3px solid rgb(0,161,154);
+    width: 110px;
+}
+
+.borda-laranja{
+    margin-bottom: 20px;
+    border-bottom: 3px solid rgb(238,153,2);
+    width: 110px;
+}
+
+header{
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 1280px;
+    margin: auto;
+    position: relative;
+}
+
+.pesquisa-roxa input[type=text]{
+    width: 500px;
+    height: 50px;
+    font-family: myriad pro;
+    font-size: 14pt;
+    border: 0;
+    border-bottom: 3px solid rgb(102,36,131); 
+}
+
+.pesquisa-roxa{
+    position: relative;
+}
+
+.pesquisa-roxa img{
+    position: absolute;
+    left: 468px;
+    top: 10px;
+    width: 30px;
+}
+
+main{
+    width: 70%;
+    width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alinhar-esquerda{
+    width: 470px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-left: 30px;
+    margin-right: 50px;
+}
+
+.alinhar-direita{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 103%;
+}
+
+.texto-index{
+    font-family: myriad pro;
+    font-size: 14pt;
+    color: #662483;
+    margin-bottom: 50px;
+}
+
+.categorias{
+    list-style: none;
+    font-family: myriad pro;
+    font-size: 12pt;
+    margin-bottom: 70%;
+}
+
+.categorias li{
+    margin-bottom: 10px;
+}
+
+.categoria-roxa a{
+    color: #662483;
+}
+
+.categoria-verde a{
+    color: #00a19a;
+}
+
+.categoria-laranja a{
+    color: #ee9902;
+}
+
+.nome-roxo{
+    background-color: white;
+    color: #662483;
+    font-family: myriad pro;
+    font-size: 40pt;
+    position: absolute;
+    left: 563px;
+    top: 186px;
+    padding: 15px;
+    padding-right: 30px;
+}
+
+.nome-verde{
+    background-color: white;
+    color: #00a19a;
+    font-family: myriad pro;
+    font-size: 40pt;
+    position: absolute;
+    left: 563px;
+    top: 186px;
+    padding: 15px;
+    padding-right: 30px;
+}
+
+.nome-laranja{
+    background-color: white;
+    color: #ee9902;
+    font-family: myriad pro;
+    font-size: 40pt;
+    position: absolute;
+    left: 563px;
+    top: 186px;
+    padding: 15px;
+    padding-right: 30px;
+}
+
+.galeria{
+    width: 1000px;
+}
+
+.idiomas{
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.secao-idiomas a{
+    font-family: myriad pro;
+    font-size: 12pt;
+    color: #575756;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secao-idiomas li{
+    margin-bottom: 20px;
+    border-bottom: 3px solid rgb(102,36,131);
+    padding-left: 30px;
+    width: 20px;
+}
+
+.secao-idiomas img{
+    width: 18px; 
+    margin-left: 10px;
+}
+
+.submenu{
+    display: none;
+}
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icones-redes img{
+    width: 300px;
+}
+
+.frase-footer{
+    margin-left: 44%;
+    font-family: myriad pro;
+    color: #575756;
+}
+
+.texto-licenca{
+    margin-left: 121px;
+    margin-bottom: 100px;
+    margin-right: 300px;
+    font-family: myriad pro;
+    font-size: 12pt;
+    color: #575756;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto-licenca p{
+    width: 400px;
+}
+
+.esquerda-licenca{
+    margin-top: 100px;
+    padding-right: 60px;
+}
+
+.direita-licenca{
+    margin-top: 100px;
+}
+
+.texto-sobre{
+    margin-left: 121px;
+    margin-bottom: 100px;
+    margin-right: 300px;
+    font-family: myriad pro;
+    font-size: 12pt;
+    color: #575756;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto-sobre p{
+    width: 400px;
+}
+
+.esquerda-sobre{
+    margin-top: 100px;
+    padding-right: 60px;
+}
+
+.direita-sobre{
+    margin-top: 100px;
+}
+
+.acesso-cadastro{
+    color: #575756;
+    font-family: myriad pro;
+    font-size: 14pt;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 121px;
+}
+
+.acesso-cadastro input[type=text]{
+    width: 500px;
+    height: 50px;
+    font-family: myriad pro;
+    font-size: 14pt;
+    border: 0;
+    border-bottom: 3px solid rgb(0,161,154); 
+    margin-bottom: 20px;
+}
+
+.centro-cadastro{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.direita-cadastro{
+    margin-left: 385px;
+}
+
+.direita-cadastro img{
+    width: 12px;
+    margin-left: 10px;
+}
+
+.acesso-login{
+    color: #575756;
+    font-family: myriad pro;
+    font-size: 14pt;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 121px;
+}
+
+.acesso-login input[type=text]{
+    width: 500px;
+    height: 50px;
+    font-family: myriad pro;
+    font-size: 14pt;
+    border: 0;
+    border-bottom: 3px solid rgb(0,161,154); 
+    margin-bottom: 20px;
+}
+
+.centro-login{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.direita-login{
+    margin-left: 430px;
+}
+
+.direita-login img{
+    width: 12px;
+    margin-left: 10px;
+}
+
+.texto-verde{
+    color: #00a19a;
+    font-size: 10pt;
+}
